@@ -16,10 +16,14 @@ body {
 
 nav {
   margin: auto;
-  padding: 10px 0px 15px 15px;
   position: fixed;
   width: 420px;
-  background-color: #ECECEC;
+}
+
+.status-bar {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 .bus-list {
@@ -27,6 +31,15 @@ nav {
   width: 420px;
   line-height: 2em;
   margin: auto;
+}
+
+.location1 {
+  position: relative;
+  box-sizing: border-box;
+  background-color: white;
+  border-bottom: 0.5px solid #686868;
+  padding: 20px;
+  margin-top: 16px;
 }
 
 .location {
@@ -42,6 +55,10 @@ nav {
 }
 
 .location:hover {
+  background-color: #CDEEFD;
+}
+
+.location1:hover {
   background-color: #CDEEFD;
 }
 
